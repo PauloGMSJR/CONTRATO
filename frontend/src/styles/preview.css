@@ -1,0 +1,17 @@
+.preview {
+  display: grid;
+  gap: 1rem;
+}
+
+.preview__text {
+  background: #fff;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  border: 1px solid #e2e8f0;
+}
+
+.preview__actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,60 @@
+.clause-card {
+  border: 1px solid #e2e8f0;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  background: #fff;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.clause-card--ativo {
+  border-color: #0ea5e9;
+  box-shadow: 0 0 0 2px #bae6fd;
+}
+
+.clause-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clause-card__titulo {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  font-weight: 700;
+}
+
+.clause-card__tipo {
+  font-size: 0.85rem;
+  color: #475569;
+}
+
+.clause-card__help {
+  background: #0b5dd7;
+  color: white;
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.clause-card__parametros {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.clause-card__campo {
+  display: grid;
+  gap: 0.25rem;
+  font-weight: 600;
+}
+
+.clause-card__explicacao {
+  margin: 0;
+  background: #eff6ff;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  color: #1e293b;
+}

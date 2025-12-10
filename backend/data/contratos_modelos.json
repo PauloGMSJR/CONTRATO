@@ -1,0 +1,167 @@
+[
+  {
+    "id": "locacao",
+    "tipo": "locacao",
+    "titulo": "Contrato de Locação",
+    "descricao": "Modelo simplificado para locação residencial ou comercial.",
+    "clausulas": [
+      {
+        "id": "objeto",
+        "titulo": "Objeto",
+        "textoBase": "As partes ajustam a locação do imóvel descrito, exclusivamente para fins lícitos.",
+        "tipo": "obrigatoria",
+        "parametros": []
+      },
+      {
+        "id": "prazo",
+        "titulo": "Prazo",
+        "textoBase": "O prazo da locação será de {{prazo}}.",
+        "tipo": "opcional",
+        "parametros": ["prazo"]
+      },
+      {
+        "id": "valor",
+        "titulo": "Valor e Forma de Pagamento",
+        "textoBase": "O valor total ajustado é de {{valorTotal}}, pago da seguinte forma: {{formaPagamento}}.",
+        "tipo": "obrigatoria",
+        "parametros": ["valorTotal", "formaPagamento"]
+      },
+      {
+        "id": "multa",
+        "titulo": "Multa por Rescisão",
+        "textoBase": "Em caso de rescisão antecipada, aplica-se multa de {{multaRescisao}}.",
+        "tipo": "opcional",
+        "parametros": ["multaRescisao"]
+      },
+      {
+        "id": "foro",
+        "titulo": "Foro",
+        "textoBase": "Fica eleito o foro de {{foro}} para dirimir dúvidas deste contrato.",
+        "tipo": "obrigatoria",
+        "parametros": ["foro"]
+      }
+    ]
+  },
+  {
+    "id": "servico",
+    "tipo": "servico",
+    "titulo": "Contrato de Prestação de Serviços",
+    "descricao": "Modelo educativo para prestação de serviços gerais.",
+    "clausulas": [
+      {
+        "id": "escopo",
+        "titulo": "Escopo dos Serviços",
+        "textoBase": "O prestador executará os serviços de {{descricaoServico}} com qualidade e diligência.",
+        "tipo": "obrigatoria",
+        "parametros": ["descricaoServico"]
+      },
+      {
+        "id": "prazo",
+        "titulo": "Prazo de Execução",
+        "textoBase": "Os serviços serão executados no prazo de {{prazo}}.",
+        "tipo": "opcional",
+        "parametros": ["prazo"]
+      },
+      {
+        "id": "pagamento",
+        "titulo": "Pagamento",
+        "textoBase": "O valor devido é de {{valorTotal}}, pago da seguinte forma: {{formaPagamento}}.",
+        "tipo": "obrigatoria",
+        "parametros": ["valorTotal", "formaPagamento"]
+      },
+      {
+        "id": "reajuste",
+        "titulo": "Reajuste",
+        "textoBase": "Haverá reajuste anual pelo índice {{indiceReajuste}}.",
+        "tipo": "opcional",
+        "parametros": ["indiceReajuste"]
+      },
+      {
+        "id": "foro",
+        "titulo": "Foro",
+        "textoBase": "O foro eleito é {{foro}}.",
+        "tipo": "obrigatoria",
+        "parametros": ["foro"]
+      }
+    ]
+  },
+  {
+    "id": "compra_venda",
+    "tipo": "compra_venda",
+    "titulo": "Contrato de Compra e Venda",
+    "descricao": "Modelo genérico para compra e venda de bens.",
+    "clausulas": [
+      {
+        "id": "bem",
+        "titulo": "Identificação do Bem",
+        "textoBase": "O objeto é {{descricaoBem}}.",
+        "tipo": "obrigatoria",
+        "parametros": ["descricaoBem"]
+      },
+      {
+        "id": "pagamento",
+        "titulo": "Preço e Condições",
+        "textoBase": "O preço total é {{valorTotal}}, com pagamento em {{formaPagamento}}.",
+        "tipo": "obrigatoria",
+        "parametros": ["valorTotal", "formaPagamento"]
+      },
+      {
+        "id": "garantia",
+        "titulo": "Garantia",
+        "textoBase": "Será oferecida garantia de {{garantiaPrazo}}.",
+        "tipo": "opcional",
+        "parametros": ["garantiaPrazo"]
+      },
+      {
+        "id": "foro",
+        "titulo": "Foro",
+        "textoBase": "Para dirimir dúvidas fica eleito o foro de {{foro}}.",
+        "tipo": "obrigatoria",
+        "parametros": ["foro"]
+      }
+    ]
+  },
+  {
+    "id": "parceria",
+    "tipo": "parceria",
+    "titulo": "Acordo de Parceria",
+    "descricao": "Modelo para colaboração entre pessoas ou empresas.",
+    "clausulas": [
+      {
+        "id": "objetivo",
+        "titulo": "Objetivo da Parceria",
+        "textoBase": "As partes unem esforços para {{objetivoParceria}}.",
+        "tipo": "obrigatoria",
+        "parametros": ["objetivoParceria"]
+      },
+      {
+        "id": "contribuicoes",
+        "titulo": "Contribuições",
+        "textoBase": "Cada parte contribuirá com {{contribuicoes}}.",
+        "tipo": "obrigatoria",
+        "parametros": ["contribuicoes"]
+      },
+      {
+        "id": "prazo",
+        "titulo": "Prazo",
+        "textoBase": "A parceria terá duração de {{prazo}}.",
+        "tipo": "opcional",
+        "parametros": ["prazo"]
+      },
+      {
+        "id": "multa",
+        "titulo": "Rescisão e Multa",
+        "textoBase": "Em caso de descumprimento, aplica-se multa de {{multaRescisao}}.",
+        "tipo": "opcional",
+        "parametros": ["multaRescisao"]
+      },
+      {
+        "id": "foro",
+        "titulo": "Foro",
+        "textoBase": "O foro competente será o de {{foro}}.",
+        "tipo": "obrigatoria",
+        "parametros": ["foro"]
+      }
+    ]
+  }
+]

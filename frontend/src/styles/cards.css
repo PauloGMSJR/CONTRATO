@@ -1,0 +1,19 @@
+.card {
+  text-align: left;
+}
+
+.card__tag {
+  background: #e0f2fe;
+  color: #0ea5e9;
+  padding: 0.35rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+}
+
+.card h3 {
+  margin: 0;
+}
+
+.card p {
+  min-height: 60px;
+}
